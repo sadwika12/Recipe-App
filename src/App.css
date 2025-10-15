@@ -1,0 +1,98 @@
+.header{
+  color:black;
+  height:90px;
+  margin-right:7px;
+  font-size: 25px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:white;
+  box-shadow:0px 1px 3px 1px rgba(0,0,0,0.10),
+             0px 1px 2px 1px rgba(0,0,0,0.06);
+  border-radius:10px;
+}
+img{
+  height:50px;
+  padding:10px;
+}
+body{
+  background-color: #FAFAF8;
+}
+.form-container{
+  display:flex;
+ align-items:center;
+  justify-content:center;
+  margin-top:100px;
+}
+.user-input{
+  width:290px;
+  height:40px;
+  font-size:12px;
+  font-weight:bold;
+  border-radius:12px;
+  margin-right:20px;
+}
+button{
+  width:145px;
+  height:45px;
+  border-radius:10px;
+  background-color: black;
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+}
+button::before{
+  content:"+";
+  margin-right:7px;
+}
+ul{
+  display:flex;
+  flex-direction:column;
+  font-size:18px;
+
+}
+.main-section{
+   margin-left:430px;
+}
+.get-recipe-container{
+  display:block;
+  background-color:rgb(236, 234, 234);
+  box-shadow:0px 1px 3px 1px rgba(0,0,0,0.10),
+             0px 1px 2px 1px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width:500px;
+}
+.ingredients-heading{
+  margin-left:430px;
+}
+.get-recipe{
+  margin-left:30px;
+  cursor:pointer;
+  margin-top:25px;
+}
+h3{
+  margin-bottom:0px;
+  font-size:20px;
+}
+.text-field{
+  margin-top:0px;
+  margin-left:5px;
+}
+.get-recipe-sub-children-container{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  padding:10px;
+}
+.add-ingredient{
+  cursor:pointer;
+}
+.recipe-shown{
+  margin-left:430px;
+}
+.recipe-section{
+  color:#475467;
+  line-height:20px;
+  font-size:18px;
+  font-weight:500;
+  margin-left:430px;
+}
