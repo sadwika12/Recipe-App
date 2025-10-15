@@ -1,1 +1,1 @@
-A Simple recipe app which fetches the recipes from a hugging face model based on the ingredients enetered  by the user
+A Simple recipe app which fetches the recipes from a hugging face model based on the ingredients entered  by the user
